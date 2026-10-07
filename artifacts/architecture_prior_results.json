@@ -1,0 +1,1440 @@
+{
+  "architecture_summaries": [
+    {
+      "activation": "relu",
+      "architecture": "relu_mlp",
+      "ci95_high_bands_to_90_percent": 4.359317599364129,
+      "ci95_high_effective_frequency_bands": 3.500529558585644,
+      "ci95_high_laplacian_energy": 0.6103815313781616,
+      "ci95_high_low_frequency_share": 0.9126374331141086,
+      "ci95_high_spectral_centroid": 0.12979276068655551,
+      "ci95_high_total_variation": 0.20938363845697638,
+      "ci95_low_bands_to_90_percent": 3.937557400635871,
+      "ci95_low_effective_frequency_bands": 3.2012814382732393,
+      "ci95_low_laplacian_energy": 0.5438970434734999,
+      "ci95_low_low_frequency_share": 0.9021111887001206,
+      "ci95_low_spectral_centroid": 0.1226767551873468,
+      "ci95_low_total_variation": 0.1949816779340111,
+      "draws": 128,
+      "family": "coordinate_mlp",
+      "grid_size": 32,
+      "layer_normalisation": false,
+      "mean_bands_to_90_percent": 4.1484375,
+      "mean_effective_frequency_bands": 3.3509054984294417,
+      "mean_laplacian_energy": 0.5771392874258308,
+      "mean_low_frequency_share": 0.9073743109071146,
+      "mean_spectral_centroid": 0.12623475793695116,
+      "mean_total_variation": 0.20218265819549375,
+      "parameter_count": 4137,
+      "parameter_difference_percent": 1.0009765625,
+      "sd_bands_to_90_percent": 1.2172632512462724,
+      "sd_effective_frequency_bands": 0.8636750005315484,
+      "sd_laplacian_energy": 0.19188421322898488,
+      "sd_low_frequency_share": 0.030380321655338577,
+      "sd_spectral_centroid": 0.02053786017735205,
+      "sd_total_variation": 0.04156622019661097,
+      "se_bands_to_90_percent": 0.10759188743067792,
+      "se_effective_frequency_bands": 0.07633880620214412,
+      "se_laplacian_energy": 0.016960328547107578,
+      "se_low_frequency_share": 0.002685266432139803,
+      "se_spectral_centroid": 0.001815307525308348,
+      "se_total_variation": 0.0036739695211646054,
+      "spectral_slope": -2.7544317438216783,
+      "width": 44
+    },
+    {
+      "activation": "tanh",
+      "architecture": "tanh_mlp",
+      "ci95_high_bands_to_90_percent": 4.1040939579611715,
+      "ci95_high_effective_frequency_bands": 3.2124998262083766,
+      "ci95_high_laplacian_energy": 0.5419006523409964,
+      "ci95_high_low_frequency_share": 0.914418056032131,
+      "ci95_high_spectral_centroid": 0.12440256560585113,
+      "ci95_high_total_variation": 0.13749352364547085,
+      "ci95_low_bands_to_90_percent": 3.880281042038829,
+      "ci95_low_effective_frequency_bands": 3.0591581818923324,
+      "ci95_low_laplacian_energy": 0.5121716831261611,
+      "ci95_low_low_frequency_share": 0.9093864000653843,
+      "ci95_low_spectral_centroid": 0.12090173825767629,
+      "ci95_low_total_variation": 0.12942930023269866,
+      "draws": 128,
+      "family": "coordinate_mlp",
+      "grid_size": 32,
+      "layer_normalisation": false,
+      "mean_bands_to_90_percent": 3.9921875,
+      "mean_effective_frequency_bands": 3.1358290040503545,
+      "mean_laplacian_energy": 0.5270361677335788,
+      "mean_low_frequency_share": 0.9119022280487576,
+      "mean_spectral_centroid": 0.12265215193176371,
+      "mean_total_variation": 0.13346141193908476,
+      "parameter_count": 4137,
+      "parameter_difference_percent": 1.0009765625,
+      "sd_bands_to_90_percent": 0.6459576757788685,
+      "sd_effective_frequency_bands": 0.44256700626191975,
+      "sd_laplacian_energy": 0.08580226828365758,
+      "sd_low_frequency_share": 0.014522114508915407,
+      "sd_spectral_centroid": 0.010103913296562246,
+      "sd_total_variation": 0.023274559429283827,
+      "se_bands_to_90_percent": 0.057095131612842395,
+      "se_effective_frequency_bands": 0.039117766407154086,
+      "se_laplacian_energy": 0.007583920718070214,
+      "se_low_frequency_share": 0.001283585705802704,
+      "se_spectral_centroid": 0.000893068201065011,
+      "se_total_variation": 0.002057199850196987,
+      "spectral_slope": -2.763008980046678,
+      "width": 44
+    },
+    {
+      "activation": "gaussian",
+      "architecture": "gaussian_mlp",
+      "ci95_high_bands_to_90_percent": 2.8303579840116577,
+      "ci95_high_effective_frequency_bands": 2.564461529941437,
+      "ci95_high_laplacian_energy": 0.3908217088304823,
+      "ci95_high_low_frequency_share": 0.9565489572256966,
+      "ci95_high_spectral_centroid": 0.10407878280788312,
+      "ci95_high_total_variation": 0.25728738597173006,
+      "ci95_low_bands_to_90_percent": 2.3258920159883423,
+      "ci95_low_effective_frequency_bands": 2.2117504930533913,
+      "ci95_low_laplacian_energy": 0.2951502771147231,
+      "ci95_low_low_frequency_share": 0.9429716813867898,
+      "ci95_low_spectral_centroid": 0.09499826365194115,
+      "ci95_low_total_variation": 0.24590106294314606,
+      "draws": 128,
+      "family": "coordinate_mlp",
+      "grid_size": 32,
+      "layer_normalisation": false,
+      "mean_bands_to_90_percent": 2.578125,
+      "mean_effective_frequency_bands": 2.388106011497414,
+      "mean_laplacian_energy": 0.3429859929726027,
+      "mean_low_frequency_share": 0.9497603193062432,
+      "mean_spectral_centroid": 0.09953852322991213,
+      "mean_total_variation": 0.25159422445743806,
+      "parameter_count": 4137,
+      "parameter_difference_percent": 1.0009765625,
+      "sd_bands_to_90_percent": 1.4559645178249896,
+      "sd_effective_frequency_bands": 1.0179770040117366,
+      "sd_laplacian_energy": 0.2761221148246493,
+      "sd_low_frequency_share": 0.03918605639074006,
+      "sd_spectral_centroid": 0.02620774151779965,
+      "sd_total_variation": 0.032862637658335844,
+      "se_bands_to_90_percent": 0.1286902979651315,
+      "se_effective_frequency_bands": 0.08997730532858303,
+      "se_laplacian_energy": 0.024405977478510005,
+      "se_low_frequency_share": 0.003463590775231343,
+      "se_spectral_centroid": 0.002316458968352544,
+      "se_total_variation": 0.00290467424198571,
+      "spectral_slope": -2.950704815469367,
+      "width": 44
+    },
+    {
+      "activation": "relu",
+      "architecture": "relu_layernorm_mlp",
+      "ci95_high_bands_to_90_percent": 3.511499457607969,
+      "ci95_high_effective_frequency_bands": 2.872427040386656,
+      "ci95_high_laplacian_energy": 0.4727570363309322,
+      "ci95_high_low_frequency_share": 0.9302679102811332,
+      "ci95_high_spectral_centroid": 0.11438025418828567,
+      "ci95_high_total_variation": 0.2288794324365772,
+      "ci95_low_bands_to_90_percent": 3.301000542392031,
+      "ci95_low_effective_frequency_bands": 2.71740530950456,
+      "ci95_low_laplacian_energy": 0.4331047529917355,
+      "ci95_low_low_frequency_share": 0.92520717061772,
+      "ci95_low_spectral_centroid": 0.11098763628435028,
+      "ci95_low_total_variation": 0.20887154525320956,
+      "draws": 128,
+      "family": "coordinate_mlp",
+      "grid_size": 32,
+      "layer_normalisation": true,
+      "mean_bands_to_90_percent": 3.40625,
+      "mean_effective_frequency_bands": 2.794916174945608,
+      "mean_laplacian_energy": 0.45293089466133385,
+      "mean_low_frequency_share": 0.9277375404494266,
+      "mean_spectral_centroid": 0.11268394523631797,
+      "mean_total_variation": 0.21887548884489338,
+      "parameter_count": 4137,
+      "parameter_difference_percent": 1.0009765625,
+      "sd_bands_to_90_percent": 0.6075314709453136,
+      "sd_effective_frequency_bands": 0.4474159883183908,
+      "sd_laplacian_energy": 0.11444244260684218,
+      "sd_low_frequency_share": 0.01460605442375185,
+      "sd_spectral_centroid": 0.009791604595296328,
+      "sd_total_variation": 0.05774576614112116,
+      "se_bands_to_90_percent": 0.05369870286120865,
+      "se_effective_frequency_bands": 0.03954635991890191,
+      "se_laplacian_energy": 0.010115378402856296,
+      "se_low_frequency_share": 0.0012910050161768379,
+      "se_spectral_centroid": 0.0008654637510039242,
+      "se_total_variation": 0.005104052852899913,
+      "spectral_slope": -2.9111704750421743,
+      "width": 44
+    },
+    {
+      "activation": "sine",
+      "architecture": "siren_mlp",
+      "ci95_high_bands_to_90_percent": 5.785647263815524,
+      "ci95_high_effective_frequency_bands": 6.092495233778308,
+      "ci95_high_laplacian_energy": 0.8315772879015354,
+      "ci95_high_low_frequency_share": 0.8371813918316013,
+      "ci95_high_spectral_centroid": 0.20211150422097696,
+      "ci95_high_total_variation": 0.7616148054678467,
+      "ci95_low_bands_to_90_percent": 5.542477736184476,
+      "ci95_low_effective_frequency_bands": 5.812943913962318,
+      "ci95_low_laplacian_energy": 0.7699900641846894,
+      "ci95_low_low_frequency_share": 0.8228863734004883,
+      "ci95_low_spectral_centroid": 0.19554500904037453,
+      "ci95_low_total_variation": 0.7405971288822877,
+      "draws": 128,
+      "family": "siren",
+      "grid_size": 32,
+      "layer_normalisation": false,
+      "mean_bands_to_90_percent": 5.6640625,
+      "mean_effective_frequency_bands": 5.952719573870313,
+      "mean_laplacian_energy": 0.8007836760431124,
+      "mean_low_frequency_share": 0.8300338826160448,
+      "mean_spectral_centroid": 0.19882825663067574,
+      "mean_total_variation": 0.7511059671750672,
+      "parameter_count": 4137,
+      "parameter_difference_percent": 1.0009765625,
+      "sd_bands_to_90_percent": 0.7018237631258926,
+      "sd_effective_frequency_bands": 0.8068270772715769,
+      "sd_laplacian_energy": 0.17774997356993782,
+      "sd_low_frequency_share": 0.04125756926459859,
+      "sd_spectral_centroid": 0.01895189090135825,
+      "sd_total_variation": 0.060660169952793636,
+      "se_bands_to_90_percent": 0.06203304276302248,
+      "se_effective_frequency_bands": 0.07131411219795682,
+      "se_laplacian_energy": 0.015711026458379077,
+      "se_low_frequency_share": 0.0036466883752839176,
+      "se_spectral_centroid": 0.0016751263215822561,
+      "se_total_variation": 0.005361652190193604,
+      "spectral_slope": -3.0155777092845812,
+      "width": 44
+    },
+    {
+      "activation": "relu",
+      "architecture": "fourier_relu_mlp",
+      "ci95_high_bands_to_90_percent": 10.001179172613476,
+      "ci95_high_effective_frequency_bands": 9.019427175525406,
+      "ci95_high_laplacian_energy": 3.4762564278202346,
+      "ci95_high_low_frequency_share": 0.5774488063859536,
+      "ci95_high_spectral_centroid": 0.3320606493621218,
+      "ci95_high_total_variation": 1.2788704254540575,
+      "ci95_low_bands_to_90_percent": 9.686320827386524,
+      "ci95_low_effective_frequency_bands": 8.623916393584041,
+      "ci95_low_laplacian_energy": 3.2398158975628792,
+      "ci95_low_low_frequency_share": 0.5438772470130323,
+      "ci95_low_spectral_centroid": 0.3176740470492145,
+      "ci95_low_total_variation": 1.2399160104861238,
+      "draws": 128,
+      "family": "fourier_mlp",
+      "grid_size": 32,
+      "layer_normalisation": false,
+      "mean_bands_to_90_percent": 9.84375,
+      "mean_effective_frequency_bands": 8.821671784554724,
+      "mean_laplacian_energy": 3.358036162691557,
+      "mean_low_frequency_share": 0.560663026699493,
+      "mean_spectral_centroid": 0.32486734820566815,
+      "mean_total_variation": 1.2593932179700906,
+      "parameter_count": 4183,
+      "parameter_difference_percent": 2.1240234375,
+      "sd_bands_to_90_percent": 0.9087284531557286,
+      "sd_effective_frequency_bands": 1.1415034936454402,
+      "sd_laplacian_energy": 0.6824028664992613,
+      "sd_low_frequency_share": 0.09689256035754898,
+      "sd_spectral_centroid": 0.041521894096697494,
+      "sd_total_variation": 0.11242828971828805,
+      "se_bands_to_90_percent": 0.08032100643544719,
+      "se_effective_frequency_bands": 0.10089560763810322,
+      "se_laplacian_energy": 0.06031646180034574,
+      "se_low_frequency_share": 0.008564173309418716,
+      "se_spectral_centroid": 0.003670051610435559,
+      "se_total_variation": 0.00993735075712591,
+      "spectral_slope": -1.9130956319920818,
+      "width": 41
+    },
+    {
+      "activation": "relu",
+      "architecture": "convolutional_relu",
+      "ci95_high_bands_to_90_percent": 4.41839913217275,
+      "ci95_high_effective_frequency_bands": 3.5633964597519077,
+      "ci95_high_laplacian_energy": 0.5955505681644977,
+      "ci95_high_low_frequency_share": 0.9112480799110845,
+      "ci95_high_spectral_centroid": 0.1302820773652424,
+      "ci95_high_total_variation": 0.21133048182172484,
+      "ci95_low_bands_to_90_percent": 4.08160086782725,
+      "ci95_low_effective_frequency_bands": 3.3268130743642788,
+      "ci95_low_laplacian_energy": 0.541895793051357,
+      "ci95_low_low_frequency_share": 0.9030726806785652,
+      "ci95_low_spectral_centroid": 0.12475534132482695,
+      "ci95_low_total_variation": 0.1939490700065272,
+      "draws": 128,
+      "family": "convolutional",
+      "grid_size": 32,
+      "layer_normalisation": false,
+      "mean_bands_to_90_percent": 4.25,
+      "mean_effective_frequency_bands": 3.445104767058093,
+      "mean_laplacian_energy": 0.5687231806079274,
+      "mean_low_frequency_share": 0.9071603802948248,
+      "mean_spectral_centroid": 0.12751870934503468,
+      "mean_total_variation": 0.20263977591412602,
+      "parameter_count": 3837,
+      "parameter_difference_percent": -6.3232421875,
+      "sd_bands_to_90_percent": 0.9720503535125017,
+      "sd_effective_frequency_bands": 0.6828151678516855,
+      "sd_laplacian_energy": 0.15485573602261604,
+      "sd_low_frequency_share": 0.02359542953559906,
+      "sd_spectral_centroid": 0.015950989926554502,
+      "sd_total_variation": 0.050165363922947896,
+      "se_bands_to_90_percent": 0.08591792457793383,
+      "se_effective_frequency_bands": 0.060352904435619685,
+      "se_laplacian_energy": 0.013687442630903214,
+      "se_low_frequency_share": 0.0020855610287039304,
+      "se_spectral_centroid": 0.0014098816429631246,
+      "se_total_variation": 0.00443403362632593,
+      "spectral_slope": -2.785589200980728,
+      "width": 14
+    },
+    {
+      "activation": "relu",
+      "architecture": "residual_convolutional_relu",
+      "ci95_high_bands_to_90_percent": 4.5933006484472765,
+      "ci95_high_effective_frequency_bands": 3.633910322058692,
+      "ci95_high_laplacian_energy": 0.633474594197991,
+      "ci95_high_low_frequency_share": 0.906519560499486,
+      "ci95_high_spectral_centroid": 0.13309343982686567,
+      "ci95_high_total_variation": 0.18671875902192467,
+      "ci95_low_bands_to_90_percent": 4.2035743515527235,
+      "ci95_low_effective_frequency_bands": 3.36609102823165,
+      "ci95_low_laplacian_energy": 0.573054532034149,
+      "ci95_low_low_frequency_share": 0.896888559840223,
+      "ci95_low_spectral_centroid": 0.12668395044109737,
+      "ci95_low_total_variation": 0.17549879796525472,
+      "draws": 128,
+      "family": "residual_convolutional",
+      "grid_size": 32,
+      "layer_normalisation": false,
+      "mean_bands_to_90_percent": 4.3984375,
+      "mean_effective_frequency_bands": 3.500000675145171,
+      "mean_laplacian_energy": 0.60326456311607,
+      "mean_low_frequency_share": 0.9017040601698545,
+      "mean_spectral_centroid": 0.12988869513398152,
+      "mean_total_variation": 0.1811087784935897,
+      "parameter_count": 4445,
+      "parameter_difference_percent": 8.5205078125,
+      "sd_bands_to_90_percent": 1.1248086013912677,
+      "sd_effective_frequency_bands": 0.7729666889701781,
+      "sd_laplacian_energy": 0.17438137010516525,
+      "sd_low_frequency_share": 0.02779651377868184,
+      "sd_spectral_centroid": 0.018498748606612058,
+      "sd_total_variation": 0.03238249203191955,
+      "se_bands_to_90_percent": 0.0994199736975902,
+      "se_effective_frequency_bands": 0.06832124842526573,
+      "se_laplacian_energy": 0.015413281164245429,
+      "se_low_frequency_share": 0.002456887923281404,
+      "se_spectral_centroid": 0.0016350738229000729,
+      "se_total_variation": 0.0028622349634362066,
+      "spectral_slope": -2.737472749528914,
+      "width": 11
+    }
+  ],
+  "draws_per_architecture": 128,
+  "experiment": "random-function architecture prior pilot",
+  "grid_size": 32,
+  "project": "Poiesis Ansh",
+  "scope_note": "This is a spectral extension, not a direct replication of the paper's Boolean-function experiments.",
+  "seed": 20261007,
+  "spectra": [
+    {
+      "architecture": "relu_mlp",
+      "band": 1,
+      "mean_energy_share": 0.7041934707107242,
+      "mean_power_density_share": 0.865626244346939,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.09465929980054436
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 2,
+      "mean_energy_share": 0.11981490393159287,
+      "mean_power_density_share": 0.07629032980519566,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.04495750538665467
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 3,
+      "mean_energy_share": 0.05379946078748575,
+      "mean_power_density_share": 0.02721242656029673,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.015200317768553163
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 4,
+      "mean_energy_share": 0.02956647547731179,
+      "mean_power_density_share": 0.01253333287572047,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.009964329567504588
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 5,
+      "mean_energy_share": 0.02001011324943071,
+      "mean_power_density_share": 0.005077181869255752,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.0062344219834386625
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 6,
+      "mean_energy_share": 0.013814068677663303,
+      "mean_power_density_share": 0.0039032322499046035,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.004642354916135183
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 7,
+      "mean_energy_share": 0.01073786756292122,
+      "mean_power_density_share": 0.0022736505906831915,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.0035240899686206193
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 8,
+      "mean_energy_share": 0.008618876916910146,
+      "mean_power_density_share": 0.001565082244745275,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.002873363312622309
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 9,
+      "mean_energy_share": 0.007141509374570303,
+      "mean_power_density_share": 0.001296837318541226,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.002390326839766566
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 10,
+      "mean_energy_share": 0.00620387751282267,
+      "mean_power_density_share": 0.0009278752179396966,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.002085283810076932
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 11,
+      "mean_energy_share": 0.005468051174620019,
+      "mean_power_density_share": 0.0008689107529102507,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.0018391301872247071
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 12,
+      "mean_energy_share": 0.005021790588488957,
+      "mean_power_density_share": 0.0006384983492289229,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.0016963231325700305
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 13,
+      "mean_energy_share": 0.0046866818196357905,
+      "mean_power_density_share": 0.0005180367083843197,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.0015757414270732334
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 14,
+      "mean_energy_share": 0.004443357648061996,
+      "mean_power_density_share": 0.0005136104311238769,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.0015034601566208266
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 15,
+      "mean_energy_share": 0.004310695737603495,
+      "mean_power_density_share": 0.0004566766465986919,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.0014554237081638216
+    },
+    {
+      "architecture": "relu_mlp",
+      "band": 16,
+      "mean_energy_share": 0.0021687988301568118,
+      "mean_power_density_share": 0.0002980740325321691,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.0007327569703587688
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 1,
+      "mean_energy_share": 0.727023031218243,
+      "mean_power_density_share": 0.881871766632818,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.0490536896813613
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 2,
+      "mean_energy_share": 0.10673349076268618,
+      "mean_power_density_share": 0.06541919499006063,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.023410981322288155
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 3,
+      "mean_energy_share": 0.04994486935874247,
+      "mean_power_density_share": 0.02443423625099025,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.007802522516212686
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 4,
+      "mean_energy_share": 0.0282008367090861,
+      "mean_power_density_share": 0.011502622598811577,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.0046860793581256395
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 5,
+      "mean_energy_share": 0.018560828240137734,
+      "mean_power_density_share": 0.0045418883873153265,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.003041496216637475
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 6,
+      "mean_energy_share": 0.013322995953314333,
+      "mean_power_density_share": 0.003622556100295069,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.0021991953319095217
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 7,
+      "mean_energy_share": 0.01020785064117629,
+      "mean_power_density_share": 0.0020816401288386347,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.0016837123824315586
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 8,
+      "mean_energy_share": 0.008210359832442974,
+      "mean_power_density_share": 0.0014351152301167707,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.0013545346846806816
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 9,
+      "mean_energy_share": 0.0068654084983616305,
+      "mean_power_density_share": 0.001200032957192249,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.001134134831763996
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 10,
+      "mean_energy_share": 0.005932214769016232,
+      "mean_power_density_share": 0.0008539293911312533,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.0009797179354626422
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 11,
+      "mean_energy_share": 0.005271091041644007,
+      "mean_power_density_share": 0.0008061871558967307,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.0008711808439128097
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 12,
+      "mean_energy_share": 0.0048026534576266055,
+      "mean_power_density_share": 0.0005876322665784323,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.0007934449385763315
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 13,
+      "mean_energy_share": 0.004476368603409647,
+      "mean_power_density_share": 0.0004762677703736564,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.0007391452845236534
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 14,
+      "mean_energy_share": 0.004260496038414875,
+      "mean_power_density_share": 0.0004739061352293617,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.0007040932848862505
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 15,
+      "mean_energy_share": 0.0041379683346426804,
+      "mean_power_density_share": 0.00042192041108503385,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.0006837806807083478
+    },
+    {
+      "architecture": "tanh_mlp",
+      "band": 16,
+      "mean_energy_share": 0.002049536541055351,
+      "mean_power_density_share": 0.00027110359326714886,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.0003381465738328658
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 1,
+      "mean_energy_share": 0.8001015562854951,
+      "mean_power_density_share": 0.9057691568830034,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.129452954796792
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 2,
+      "mean_energy_share": 0.10469381639826257,
+      "mean_power_density_share": 0.06389002307374876,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.07508352106314559
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 3,
+      "mean_energy_share": 0.029226200849720906,
+      "mean_power_density_share": 0.014276092276652589,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.019262618454939442
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 4,
+      "mean_energy_share": 0.015738745772764746,
+      "mean_power_density_share": 0.006438442490781714,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.011383421386970606
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 5,
+      "mean_energy_share": 0.010952956539531095,
+      "mean_power_density_share": 0.002696337394900224,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.008372664838820116
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 6,
+      "mean_energy_share": 0.0073620560998526015,
+      "mean_power_density_share": 0.0020123366771098673,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.005614157984463568
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 7,
+      "mean_energy_share": 0.005773777103821462,
+      "mean_power_density_share": 0.0011848928912724288,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.004492257370005511
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 8,
+      "mean_energy_share": 0.004692014132406481,
+      "mean_power_density_share": 0.0008257826286858944,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.003690631320611095
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 9,
+      "mean_energy_share": 0.0038450232688205404,
+      "mean_power_density_share": 0.0006765506116393147,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.0030191743719248172
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 10,
+      "mean_energy_share": 0.003368400130516464,
+      "mean_power_density_share": 0.0004883159007615048,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.002666218781631089
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 11,
+      "mean_energy_share": 0.0029532433716863847,
+      "mean_power_density_share": 0.0004548008027852164,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.002333148463184656
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 12,
+      "mean_energy_share": 0.0027291465951013168,
+      "mean_power_density_share": 0.0003363612077189852,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.0021698053086751505
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 13,
+      "mean_energy_share": 0.0025833674814324603,
+      "mean_power_density_share": 0.00027697182147072113,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.002066813054419506
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 14,
+      "mean_energy_share": 0.0024135499846327426,
+      "mean_power_density_share": 0.00027042646654818115,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.001920786699549143
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 15,
+      "mean_energy_share": 0.002352534899501099,
+      "mean_power_density_share": 0.00024164749215367992,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.0018752337794525733
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "band": 16,
+      "mean_energy_share": 0.0012136110864541618,
+      "mean_power_density_share": 0.00016186138076724896,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.0009804469119991308
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 1,
+      "mean_energy_share": 0.7561327753118375,
+      "mean_power_density_share": 0.8944938757660443,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.060067954872894555
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 2,
+      "mean_energy_share": 0.09245938553895275,
+      "mean_power_density_share": 0.05584529049138788,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.04523941651341078
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 3,
+      "mean_energy_share": 0.05522019988468068,
+      "mean_power_density_share": 0.026330582299096267,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.01394226672792751
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 4,
+      "mean_energy_share": 0.0239251797139555,
+      "mean_power_density_share": 0.009584904223008813,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.008059831575182648
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 5,
+      "mean_energy_share": 0.01868950172104522,
+      "mean_power_density_share": 0.004462427892892944,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.004399247943549152
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 6,
+      "mean_energy_share": 0.01014217735957289,
+      "mean_power_density_share": 0.0027012951814931164,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.0027333373891278573
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 7,
+      "mean_energy_share": 0.00896821678000731,
+      "mean_power_density_share": 0.0017830326691660346,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.0020073574637098374
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 8,
+      "mean_energy_share": 0.006398892658888905,
+      "mean_power_density_share": 0.0010943841945007906,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.0016368789624838546
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 9,
+      "mean_energy_share": 0.00535823649202889,
+      "mean_power_density_share": 0.000912249834885044,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.0011581654062082958
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 10,
+      "mean_energy_share": 0.004432412483419935,
+      "mean_power_density_share": 0.0006235651037328075,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.001121265789643123
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 11,
+      "mean_energy_share": 0.003941045524066083,
+      "mean_power_density_share": 0.0005868926896798297,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.0008849640243813867
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 12,
+      "mean_energy_share": 0.0034953477854190182,
+      "mean_power_density_share": 0.00041767956476409086,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.0008785014352092979
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 13,
+      "mean_energy_share": 0.0033036082329981216,
+      "mean_power_density_share": 0.00034236992229243847,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.0007592081738568964
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 14,
+      "mean_energy_share": 0.0030400012049222125,
+      "mean_power_density_share": 0.0003300243819746677,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.0007793776995904538
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 15,
+      "mean_energy_share": 0.002978132893723164,
+      "mean_power_density_share": 0.00029572384763220516,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.0007054553136438132
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "band": 16,
+      "mean_energy_share": 0.001514886414481588,
+      "mean_power_density_share": 0.0001957019374483166,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.0004010892187203161
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 1,
+      "mean_energy_share": 0.14695134138745813,
+      "mean_power_density_share": 0.2971601554276557,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.08212989690917297
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 2,
+      "mean_energy_share": 0.2981051869546106,
+      "mean_power_density_share": 0.3172427759790485,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.10829561337670073
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 3,
+      "mean_energy_share": 0.28440157210527756,
+      "mean_power_density_share": 0.24735896689894185,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.10101785729707204
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 4,
+      "mean_energy_share": 0.1005757821686985,
+      "mean_power_density_share": 0.07288377079796543,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.044090077396065255
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 5,
+      "mean_energy_share": 0.06260404712648669,
+      "mean_power_density_share": 0.027039238227591952,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.020151963834737056
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 6,
+      "mean_energy_share": 0.03337907252987984,
+      "mean_power_density_share": 0.015963154584672918,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.010169638409583188
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 7,
+      "mean_energy_share": 0.025266863733025804,
+      "mean_power_density_share": 0.00914461272233856,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.008386089832091615
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 8,
+      "mean_energy_share": 0.016566989486507797,
+      "mean_power_density_share": 0.005115997947623174,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.00529850273064986
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 9,
+      "mean_energy_share": 0.009295838389592158,
+      "mean_power_density_share": 0.0028721853076848747,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.0027991652367413923
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 10,
+      "mean_energy_share": 0.006444403325069746,
+      "mean_power_density_share": 0.0016415260901701011,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.0018945231973363844
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 11,
+      "mean_energy_share": 0.004154152577879011,
+      "mean_power_density_share": 0.0011203475320390752,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.001265541787171587
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 12,
+      "mean_energy_share": 0.0035095403047957093,
+      "mean_power_density_share": 0.0007593900216985572,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.0010547627570300056
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 13,
+      "mean_energy_share": 0.0029797852401576026,
+      "mean_power_density_share": 0.0005595985132693071,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.000891814413549076
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 14,
+      "mean_energy_share": 0.002399918954806903,
+      "mean_power_density_share": 0.00047123719959514965,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.0007460365323042667
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 15,
+      "mean_energy_share": 0.0022169927441040675,
+      "mean_power_density_share": 0.0003989808515727112,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.0007027263271214442
+    },
+    {
+      "architecture": "siren_mlp",
+      "band": 16,
+      "mean_energy_share": 0.0011485129716499768,
+      "mean_power_density_share": 0.00026806189813207104,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.00037483797801882905
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 1,
+      "mean_energy_share": 0.1606186725398803,
+      "mean_power_density_share": 0.38652099877195195,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.09762185795822272
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 2,
+      "mean_energy_share": 0.17348876663098264,
+      "mean_power_density_share": 0.2293186708077747,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.08800373656648748
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 3,
+      "mean_energy_share": 0.03606308368327979,
+      "mean_power_density_share": 0.03815176806923329,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.020942276773842434
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 4,
+      "mean_energy_share": 0.19049250384535021,
+      "mean_power_density_share": 0.17196714385279616,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.08799477079935664
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 5,
+      "mean_energy_share": 0.03951576913601489,
+      "mean_power_density_share": 0.021226545400522438,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.01674202685733563
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 6,
+      "mean_energy_share": 0.032598306415445324,
+      "mean_power_density_share": 0.019131942353570443,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.01347108001636379
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 7,
+      "mean_energy_share": 0.029918373000940933,
+      "mean_power_density_share": 0.013524683058754094,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.01212166670921023
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 8,
+      "mean_energy_share": 0.18261921582690957,
+      "mean_power_density_share": 0.07179870731202058,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.07190216446591295
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 9,
+      "mean_energy_share": 0.04224552853441198,
+      "mean_power_density_share": 0.0163391162822627,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.01711680671737329
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 10,
+      "mean_energy_share": 0.026721904786903027,
+      "mean_power_density_share": 0.008503963062614757,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.009870149052752106
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 11,
+      "mean_energy_share": 0.02069834839097699,
+      "mean_power_density_share": 0.0070435001914277845,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.009103932331489897
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 12,
+      "mean_energy_share": 0.021512788817440922,
+      "mean_power_density_share": 0.005796727124525478,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.008777558745814288
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 13,
+      "mean_energy_share": 0.01364862899741967,
+      "mean_power_density_share": 0.0031981479776557937,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.004162293793879126
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 14,
+      "mean_energy_share": 0.00986471234598028,
+      "mean_power_density_share": 0.002431703279669481,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.0031929311814446956
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 15,
+      "mean_energy_share": 0.01212552810497564,
+      "mean_power_density_share": 0.00274647588457533,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.003995985877709054
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "band": 16,
+      "mean_energy_share": 0.00786786894308783,
+      "mean_power_density_share": 0.002299906570645137,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.0032097686098499943
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 1,
+      "mean_energy_share": 0.6847369791285604,
+      "mean_power_density_share": 0.8534056275310028,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.07849146176149066
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 2,
+      "mean_energy_share": 0.13514893297371494,
+      "mean_power_density_share": 0.08634776662158795,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.0438115667942409
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 3,
+      "mean_energy_share": 0.055864857740776826,
+      "mean_power_density_share": 0.028364648081871106,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.013340550877813679
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 4,
+      "mean_energy_share": 0.03140961045177273,
+      "mean_power_density_share": 0.013344154714027936,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.00832294177699461
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 5,
+      "mean_energy_share": 0.020894982324109457,
+      "mean_power_density_share": 0.005320387159467538,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.005363597924292277
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 6,
+      "mean_energy_share": 0.014014103383913254,
+      "mean_power_density_share": 0.003969175599819459,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.0037820303603885433
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 7,
+      "mean_energy_share": 0.010744458802953652,
+      "mean_power_density_share": 0.0022807270259331087,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.0028082152766710283
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 8,
+      "mean_energy_share": 0.008538691982658934,
+      "mean_power_density_share": 0.0015541731599359142,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.002288915137924247
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 9,
+      "mean_energy_share": 0.0069933228325967075,
+      "mean_power_density_share": 0.001272202798560447,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.0018470382591262709
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 10,
+      "mean_energy_share": 0.006072110381461866,
+      "mean_power_density_share": 0.0009096083973207822,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.00161686955352875
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 11,
+      "mean_energy_share": 0.005332330059931702,
+      "mean_power_density_share": 0.0008485916794307476,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.0014522376407099602
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 12,
+      "mean_energy_share": 0.004898192315341717,
+      "mean_power_density_share": 0.0006235294945836997,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.0013587735408828773
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 13,
+      "mean_energy_share": 0.004596370516059092,
+      "mean_power_density_share": 0.0005088088772636932,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.001343957163571574
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 14,
+      "mean_energy_share": 0.00435994516042694,
+      "mean_power_density_share": 0.0005046062878148557,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.001336824924610599
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 15,
+      "mean_energy_share": 0.004257577828464807,
+      "mean_power_density_share": 0.00045180127504336134,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.0013503714358584513
+    },
+    {
+      "architecture": "convolutional_relu",
+      "band": 16,
+      "mean_energy_share": 0.002137534117257055,
+      "mean_power_density_share": 0.0002941912963368584,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.0006915690353060135
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 1,
+      "mean_energy_share": 0.6888132503428095,
+      "mean_power_density_share": 0.8582586418000735,
+      "normalised_frequency": 0.0625,
+      "sd_energy_share": 0.08389120261564936
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 2,
+      "mean_energy_share": 0.12564457997824033,
+      "mean_power_density_share": 0.08032967827071912,
+      "normalised_frequency": 0.125,
+      "sd_energy_share": 0.037143760354669944
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 3,
+      "mean_energy_share": 0.055545706154007994,
+      "mean_power_density_share": 0.028316878039652098,
+      "normalised_frequency": 0.1875,
+      "sd_energy_share": 0.014201411036872107
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 4,
+      "mean_energy_share": 0.031700523694796603,
+      "mean_power_density_share": 0.013501607580501618,
+      "normalised_frequency": 0.25,
+      "sd_energy_share": 0.008720148357339747
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 5,
+      "mean_energy_share": 0.02107373058591453,
+      "mean_power_density_share": 0.005384762498673078,
+      "normalised_frequency": 0.3125,
+      "sd_energy_share": 0.0058752086266366235
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 6,
+      "mean_energy_share": 0.014877236476888421,
+      "mean_power_density_share": 0.004227286473587962,
+      "normalised_frequency": 0.375,
+      "sd_energy_share": 0.0042742070172418455
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 7,
+      "mean_energy_share": 0.011380451987686635,
+      "mean_power_density_share": 0.002425463744173424,
+      "normalised_frequency": 0.4375,
+      "sd_energy_share": 0.0033092488063293916
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 8,
+      "mean_energy_share": 0.00917824587158698,
+      "mean_power_density_share": 0.0016765453253892188,
+      "normalised_frequency": 0.5,
+      "sd_energy_share": 0.002671693324782785
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 9,
+      "mean_energy_share": 0.007588079301334285,
+      "mean_power_density_share": 0.0013862031590671973,
+      "normalised_frequency": 0.5625,
+      "sd_energy_share": 0.0022246942293700014
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 10,
+      "mean_energy_share": 0.006565285033621475,
+      "mean_power_density_share": 0.0009874168953268366,
+      "normalised_frequency": 0.625,
+      "sd_energy_share": 0.001913415384072125
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 11,
+      "mean_energy_share": 0.005809154904170995,
+      "mean_power_density_share": 0.0009281977436159729,
+      "normalised_frequency": 0.6875,
+      "sd_energy_share": 0.0016946542749390109
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 12,
+      "mean_energy_share": 0.005301018355205656,
+      "mean_power_density_share": 0.0006774274461400731,
+      "normalised_frequency": 0.75,
+      "sd_energy_share": 0.0015481977519068324
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 13,
+      "mean_energy_share": 0.004966928490973503,
+      "mean_power_density_share": 0.0005518808517885311,
+      "normalised_frequency": 0.8125,
+      "sd_energy_share": 0.0014662470574568925
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 14,
+      "mean_energy_share": 0.004695403468228596,
+      "mean_power_density_share": 0.0005453164612721737,
+      "normalised_frequency": 0.875,
+      "sd_energy_share": 0.0014014895476645278
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 15,
+      "mean_energy_share": 0.004574396941181004,
+      "mean_power_density_share": 0.00048699933953356414,
+      "normalised_frequency": 0.9375,
+      "sd_energy_share": 0.001381078886797904
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "band": 16,
+      "mean_energy_share": 0.0022860084133534517,
+      "mean_power_density_share": 0.0003156943704856088,
+      "normalised_frequency": 1.0,
+      "sd_energy_share": 0.0006942472619622657
+    }
+  ],
+  "spectral_attribution": [
+    {
+      "architecture": "relu_mlp",
+      "efficiency_error_bits": 0.0,
+      "model_prior_share": 0.188951121738773,
+      "prompt_share": 0.4055244391306136,
+      "seed_share": 0.4055244391306136,
+      "total_information_bits": 33.376125374725135
+    },
+    {
+      "architecture": "tanh_mlp",
+      "efficiency_error_bits": 0.0,
+      "model_prior_share": 0.18470359928945493,
+      "prompt_share": 0.40764820035527255,
+      "seed_share": 0.40764820035527255,
+      "total_information_bits": 33.31399652792457
+    },
+    {
+      "architecture": "gaussian_mlp",
+      "efficiency_error_bits": 0.0,
+      "model_prior_share": 0.15571286055042946,
+      "prompt_share": 0.42214356972478523,
+      "seed_share": 0.42214356972478523,
+      "total_information_bits": 33.030883800378405
+    },
+    {
+      "architecture": "relu_layernorm_mlp",
+      "efficiency_error_bits": 0.0,
+      "model_prior_share": 0.17403371159002676,
+      "prompt_share": 0.4129831442049866,
+      "seed_share": 0.4129831442049866,
+      "total_information_bits": 33.21394971526019
+    },
+    {
+      "architecture": "siren_mlp",
+      "efficiency_error_bits": 0.0,
+      "model_prior_share": 0.23047351536915126,
+      "prompt_share": 0.3847632423154244,
+      "seed_share": 0.3847632423154244,
+      "total_information_bits": 34.14281592464371
+    },
+    {
+      "architecture": "fourier_relu_mlp",
+      "efficiency_error_bits": 7.105427357601002e-15,
+      "model_prior_share": 0.28019820705657333,
+      "prompt_share": 0.3599008964717133,
+      "seed_share": 0.3599008964717133,
+      "total_information_bits": 34.57340174710815
+    },
+    {
+      "architecture": "convolutional_relu",
+      "efficiency_error_bits": 0.0,
+      "model_prior_share": 0.19078103135960897,
+      "prompt_share": 0.40460948432019556,
+      "seed_share": 0.4046094843201955,
+      "total_information_bits": 33.4179913644795
+    },
+    {
+      "architecture": "residual_convolutional_relu",
+      "efficiency_error_bits": 0.0,
+      "model_prior_share": 0.19287637313616246,
+      "prompt_share": 0.4035618134319187,
+      "seed_share": 0.4035618134319187,
+      "total_information_bits": 33.4233100222814
+    }
+  ],
+  "spectral_bands": 16,
+  "target_parameters": 4096
+}

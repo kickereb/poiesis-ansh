@@ -30,6 +30,12 @@ Run the exact Gaussian spectral benchmark:
 
 Then read [`NEURAL_REDSHIFT_EXTENSION.md`](NEURAL_REDSHIFT_EXTENSION.md).
 
+Run the random-function architecture pilot:
+
+```bash
+/Users/evam/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 architecture_prior.py
+```
+
 Run its tests:
 
 ```bash

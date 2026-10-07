@@ -75,8 +75,71 @@ Random functions from that architecture will become the model-prior population.
 
 ## Next phase
 
-1. Sample random functions from matched network architectures.
-2. Estimate their radial power spectra.
-3. Compare finite networks with NNGP spectra.
-4. Insert the measured spectra into this exact benchmark.
-5. Test architecture effects under matched parameter counts.
+Phase 2 completed the first, second, fourth, and fifth items.
+
+## Phase 2: random-function architecture priors
+
+The pilot sampled 128 untrained functions from each of eight architectures.
+Each function produced a 32 by 32 scalar image.
+Parameter counts remained within 8.6% of the 4,096-parameter target.
+
+The suite tested:
+
+- ReLU, tanh, and Gaussian coordinate MLPs.
+- A ReLU MLP with non-affine layer normalisation.
+- A sinusoidal representation network.
+- A ReLU MLP with fixed Fourier features.
+- Plain and residual convolutional networks.
+
+Every sampled image was centred and scaled to unit variance.
+This control removes amplitude as an explanation for spectral differences.
+
+### Results
+
+| Architecture | Low-frequency energy | Spectral centre | Model-prior Shapley share |
+|---|---:|---:|---:|
+| ReLU MLP | 90.7% | 0.126 | 18.9% |
+| Tanh MLP | 91.2% | 0.123 | 18.5% |
+| Gaussian MLP | 95.0% | 0.100 | 15.6% |
+| ReLU and layer normalisation | 92.8% | 0.113 | 17.4% |
+| Sinusoidal network | 83.0% | 0.199 | 23.0% |
+| Fourier-feature ReLU MLP | 56.1% | 0.325 | 28.0% |
+| Convolutional ReLU | 90.7% | 0.128 | 19.1% |
+| Residual convolutional ReLU | 90.2% | 0.130 | 19.3% |
+
+The common coordinate and convolutional networks strongly favoured low frequencies.
+Fourier features produced the broadest spectrum in this suite.
+
+The measured model-prior share ranged from 15.6% to 28.0%.
+Prompt and seed spectra remained uniform for this comparison.
+All three sources had equal total variance.
+
+More distributed spectra entered more independent bands in the Gaussian game.
+They therefore received more aggregate information credit under this utility.
+
+### Limits
+
+This pilot is not a direct replication of the paper's Boolean-function experiments.
+It is a two-dimensional spectral extension of the paper's random-function principle.
+
+The result depends on:
+
+- Coordinate encoding.
+- Initialisation distribution.
+- Activation parameters.
+- Image resolution.
+- Spectrum estimator.
+- Output normalisation.
+- Gaussian attribution utility.
+
+The Shapley result measures model-prior information.
+It does not measure ownership.
+
+Primary paper: [Teney et al., Neural Redshift, CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Teney_Neural_Redshift_Random_Networks_are_not_Random_Functions_CVPR_2024_paper.html).
+
+## Next phase
+
+1. Derive NNGP kernels for the coordinate MLP conditions.
+2. Compare finite-width spectra with infinite-width samples.
+3. Add width and depth convergence sweeps.
+4. Separate prior spectra from NTK training dynamics.
