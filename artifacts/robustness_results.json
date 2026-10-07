@@ -1,0 +1,176 @@
+{
+  "experiment": {
+    "specificity": 2,
+    "robustness_seed": 20261005,
+    "exact_state_count": 279936
+  },
+  "representation": [
+    {
+      "representation": "full_semantics_and_background",
+      "output_entropy_bits": 8.271810783205565,
+      "prompt_share": 0.40846071278170487,
+      "model_share": 0.3058172213726639,
+      "seed_share": 0.285722065845631,
+      "efficiency_error_bits": 1.7763568394002505e-15
+    },
+    {
+      "representation": "semantic_attributes_only",
+      "output_entropy_bits": 6.271810783205564,
+      "prompt_share": 0.538713594094855,
+      "model_share": 0.4033384100512417,
+      "seed_share": 0.05794799585390307,
+      "efficiency_error_bits": 8.881784197001252e-16
+    },
+    {
+      "representation": "background_only",
+      "output_entropy_bits": 2.0,
+      "prompt_share": -3.700743415417188e-17,
+      "model_share": -3.700743415417188e-17,
+      "seed_share": 1.0,
+      "efficiency_error_bits": 2.220446049250313e-16
+    }
+  ],
+  "denominator": [
+    {
+      "claim": "three_player_total",
+      "prompt_share": 0.40846071278170487,
+      "other_share": 0.5915392872182952,
+      "other_definition": "model plus seed, separate players"
+    },
+    {
+      "claim": "prompt_among_prompt_and_model",
+      "prompt_share": 0.5718512266031011,
+      "other_share": 0.4281487733968989,
+      "other_definition": "model only; seed omitted"
+    },
+    {
+      "claim": "prompt_vs_grouped_system",
+      "prompt_share": 0.4056226190283934,
+      "other_share": 0.5943773809716066,
+      "other_definition": "model and seed as one system player"
+    }
+  ],
+  "model_prior": [
+    {
+      "prior": "concentrated",
+      "prior_entropy_bits": 1.1011884030780175,
+      "output_entropy_bits": 6.9439465818249175,
+      "prompt_share": 0.5628302935841752,
+      "model_share": 0.08647028634870038,
+      "seed_share": 0.3506994200671243
+    },
+    {
+      "prior": "learned_correlated",
+      "prior_entropy_bits": 5.303942985793826,
+      "output_entropy_bits": 8.271810783205565,
+      "prompt_share": 0.40846071278170487,
+      "model_share": 0.3058172213726639,
+      "seed_share": 0.285722065845631
+    },
+    {
+      "prior": "uniform",
+      "prior_entropy_bits": 6.339850002884626,
+      "output_entropy_bits": 8.339850002884626,
+      "prompt_share": 0.3937200209293269,
+      "model_share": 0.32434917104055005,
+      "seed_share": 0.2819308080301227
+    }
+  ],
+  "prompt_population": [
+    {
+      "prompt_population": "uniform_prompt_values",
+      "output_entropy_bits": 8.271810783205565,
+      "prompt_share": 0.40846071278170487,
+      "model_share": 0.3058172213726639,
+      "seed_share": 0.285722065845631,
+      "efficiency_error_bits": 1.7763568394002505e-15
+    },
+    {
+      "prompt_population": "prior_aligned_prompt_values",
+      "output_entropy_bits": 8.170470485900513,
+      "prompt_share": 0.4016423583415059,
+      "model_share": 0.309526196605242,
+      "seed_share": 0.2888314450532519,
+      "efficiency_error_bits": 1.7763568394002505e-15
+    }
+  ],
+  "finite_sample": [
+    {
+      "sample_size": 128,
+      "repetitions": 100,
+      "prompt_mean": 0.3998309565026652,
+      "prompt_p025": 0.38199815484617516,
+      "prompt_p975": 0.4191882303740239,
+      "model_mean": 0.34356116630663863,
+      "seed_mean": 0.25660787719069605,
+      "mean_absolute_error_all_players": 0.026011040365537703
+    },
+    {
+      "sample_size": 512,
+      "repetitions": 100,
+      "prompt_mean": 0.400118983285935,
+      "prompt_p025": 0.3910639469147172,
+      "prompt_p975": 0.4093067028128057,
+      "model_mean": 0.34321603122316285,
+      "seed_mean": 0.2566649854909021,
+      "mean_absolute_error_all_players": 0.025028181802961937
+    },
+    {
+      "sample_size": 2048,
+      "repetitions": 100,
+      "prompt_mean": 0.4000502385941199,
+      "prompt_p025": 0.39550775655334985,
+      "prompt_p975": 0.4041628313224678,
+      "model_mean": 0.339025356986578,
+      "seed_mean": 0.2609244044193019,
+      "mean_absolute_error_all_players": 0.022138757075942685
+    },
+    {
+      "sample_size": 8192,
+      "repetitions": 60,
+      "prompt_mean": 0.40428493291756235,
+      "prompt_p025": 0.4016375863985862,
+      "prompt_p975": 0.40755511767503,
+      "model_mean": 0.32464567249802734,
+      "seed_mean": 0.2710693945844102,
+      "mean_absolute_error_all_players": 0.012552300750242237
+    },
+    {
+      "sample_size": 32768,
+      "repetitions": 30,
+      "prompt_mean": 0.40813218087840525,
+      "prompt_p025": 0.40660698605590995,
+      "prompt_p975": 0.4094888663293015,
+      "model_mean": 0.3115101145494141,
+      "seed_mean": 0.28035770457218046,
+      "mean_absolute_error_all_players": 0.0038965851325232954
+    },
+    {
+      "sample_size": 131072,
+      "repetitions": 10,
+      "prompt_mean": 0.4093779273873415,
+      "prompt_p025": 0.40870995723186904,
+      "prompt_p975": 0.4098452776610777,
+      "model_mean": 0.30593655077902826,
+      "seed_mean": 0.2846855218336301,
+      "mean_absolute_error_all_players": 0.0007349163524383621
+    }
+  ],
+  "attention_reparameterisation": [
+    {
+      "value_scale": 1.0,
+      "attention_weight": 0.8,
+      "attention_output": 0.8
+    },
+    {
+      "value_scale": 2.0,
+      "attention_weight": 0.4,
+      "attention_output": 0.8
+    },
+    {
+      "value_scale": 4.0,
+      "attention_weight": 0.2,
+      "attention_output": 0.8
+    }
+  ]
+}

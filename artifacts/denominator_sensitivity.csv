@@ -1,0 +1,4 @@
+claim,prompt_share,other_share,other_definition
+three_player_total,0.40846071278170487,0.5915392872182952,"model plus seed, separate players"
+prompt_among_prompt_and_model,0.5718512266031011,0.4281487733968989,model only; seed omitted
+prompt_vs_grouped_system,0.4056226190283934,0.5943773809716066,model and seed as one system player
