@@ -1,0 +1,37 @@
+{
+  "seed": 20261009,
+  "source_prompt": "A red ceramic teapot on the left side, before a striped background, studio photograph.",
+  "source_sha256": "e43d1d4b259b3a87245a269bbdde20d834703f4b16e734f287edc32c4d937431",
+  "source_target_metrics": [
+    {
+      "changed_pixel_share_1pct": 0.9999885559082031,
+      "mae": 0.18728336508757146,
+      "mean_signed_change": 0.0342134064319087,
+      "region": "full",
+      "rmse": 0.24961531521216918
+    },
+    {
+      "changed_pixel_share_1pct": 1.0,
+      "mae": 0.20392700523836987,
+      "mean_signed_change": -1.5949394463663762e-05,
+      "region": "left",
+      "rmse": 0.2570878112879584
+    },
+    {
+      "changed_pixel_share_1pct": 0.9999885782163743,
+      "mae": 0.1981404739039865,
+      "mean_signed_change": 0.12285013664335129,
+      "region": "centre",
+      "rmse": 0.2821077366654541
+    },
+    {
+      "changed_pixel_share_1pct": 0.9999771564327485,
+      "mae": 0.1598799473493101,
+      "mean_signed_change": -0.020394139624660777,
+      "region": "right",
+      "rmse": 0.2031419240049634
+    }
+  ],
+  "target_prompt": "A blue ceramic teapot on the left side, before a striped background, studio photograph.",
+  "target_sha256": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18"
+}

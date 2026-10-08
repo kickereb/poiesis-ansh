@@ -42,4 +42,10 @@ Run its tests:
 /Users/evam/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest discover -s tests
 ```
 
-The experiment requires only NumPy and Pillow. It measures estimator behaviour in a transparent learned-prior generator; it does not claim a legal ownership percentage or a direct attribution of fixed neural-network weights.
+The real Stable Diffusion experiment is in [`real_model/`](real_model/README.md).
+Its methods and sources are reviewed in [`REAL_MODEL_LITERATURE_REVIEW.md`](REAL_MODEL_LITERATURE_REVIEW.md).
+Its completed pilot report is [`REAL_MODEL_REPORT.md`](REAL_MODEL_REPORT.md).
+
+The transparent experiment requires only NumPy and Pillow.
+It tests estimators in a learned-prior generator.
+It does not measure legal ownership or directly attribute fixed neural-network weights.

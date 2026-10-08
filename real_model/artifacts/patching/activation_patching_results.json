@@ -1,0 +1,48 @@
+{
+  "identity_control_sha256": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18",
+  "module": "mid_block.attentions.0.transformer_blocks.0",
+  "patch_scope": "Complete BasicTransformerBlock output; conditional CFG branch only.",
+  "equal_window_lengths": false,
+  "source_sha256": "e43d1d4b259b3a87245a269bbdde20d834703f4b16e734f287edc32c4d937431",
+  "target_sha256": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18",
+  "windows": {
+    "early": {
+      "image_sha256": "084d23081d8cdafa678dad95023b4ee18095a5e841178c3134840a5ed8cef94b",
+      "patched_calls": 7,
+      "steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "late": {
+      "image_sha256": "ab1339d2aec0e2eb4308e365a17153e622e2dbb3a34a5b2efe3efb932a49b9b3",
+      "patched_calls": 6,
+      "steps": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "middle": {
+      "image_sha256": "750b9978450635d0cb8acdc503576c49a5ded5bf7a27d1a927096307f51d48a6",
+      "patched_calls": 7,
+      "steps": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    }
+  }
+}

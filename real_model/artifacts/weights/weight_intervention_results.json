@@ -1,0 +1,54 @@
+{
+  "baseline_sha256": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18",
+  "finite_difference_check": {
+    "epsilon": 0.25,
+    "gradient_cosine": 0.935277131762773,
+    "half_epsilon": 0.125,
+    "rms_ratio_half_to_full": 1.213389803051565
+  },
+  "gradient_summary": [
+    {
+      "epsilon": 0.25,
+      "gradient_max": 1.2549019607843137,
+      "gradient_rms": 0.016361314849525514,
+      "module": "down_blocks.0.attentions.0.transformer_blocks.0.attn2.to_v",
+      "negative_sha256": "2304ec7f5fbd1edb8cd4f4b2e1b185304fedc7c53336b05cb37589b6b55d1959",
+      "positive_sha256": "1cc1475a62e0bef580233d298a0a378fb78e9fefa2b94b076db4e28860d8ce22",
+      "rank": 4,
+      "relative_norm": 0.01
+    },
+    {
+      "epsilon": 0.25,
+      "gradient_max": 1.3333333333333333,
+      "gradient_rms": 0.02932597628457086,
+      "module": "up_blocks.1.attentions.2.transformer_blocks.0.attn2.to_v",
+      "negative_sha256": "d3cbf35da838a8f35f20ee68f83640ce871343ce4f565d253bbfbd18641a8800",
+      "positive_sha256": "b97fecd4233f38e83ead947112305fe7b77309edc391208d5803594fa74d95ad",
+      "rank": 4,
+      "relative_norm": 0.01
+    },
+    {
+      "epsilon": 0.25,
+      "gradient_max": 0.9490196078431372,
+      "gradient_rms": 0.012935550681020433,
+      "module": "mid_block.attentions.0.transformer_blocks.0.attn2.to_v",
+      "negative_sha256": "6c2e5c6609ccd7a344ce53869e13e9fa88b37b27ba1609e94b038bb25fea5efc",
+      "positive_sha256": "fc5f7dccffb81d0453ee54c33e8f4765cea4e9e2a623f3d5c588a6bd362eaea8",
+      "rank": 4,
+      "relative_norm": 0.01
+    }
+  ],
+  "interpretation": {
+    "central_difference": "Central finite-difference estimate along one declared rank-4 direction, using 8-bit final images.",
+    "lora_dose": "Causal output change from a controlled low-rank weight intervention."
+  },
+  "primary_direction_seed": 20261010,
+  "primary_lora_module": "up_blocks.1.attentions.2.transformer_blocks.0.attn2.to_v",
+  "selected_modules": [
+    "down_blocks.0.attentions.0.transformer_blocks.0.attn2.to_v",
+    "up_blocks.1.attentions.2.transformer_blocks.0.attn2.to_v",
+    "mid_block.attentions.0.transformer_blocks.0.attn2.to_v"
+  ],
+  "zero_dose_equal": true,
+  "zero_dose_sha256": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18"
+}

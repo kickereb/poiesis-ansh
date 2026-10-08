@@ -1,0 +1,146 @@
+{
+  "aligned_direction_relative_norm": 0.01,
+  "direction_delta_sha256": "d3cbd891f3199474ad9952a00aaddcc9dfc2a4293f6a689a2ac1e9d9b4df803b",
+  "direction_factor_sha256": "a7f52a33e92a5177d967e2fcd963ccb345e65abede9b465f9a572f38d0b1d652",
+  "direction_provenance_validated": true,
+  "fitting_seed": 20261009,
+  "held_out_objective_summary": {
+    "+0.10": {
+      "objective_reduction_max": 0.0386894182845503,
+      "objective_reduction_mean": 0.017309431033136573,
+      "objective_reduction_median": 0.01581021612443212,
+      "objective_reduction_min": -0.0025713413095727056,
+      "positive_reduction_share": 0.6666666666666666,
+      "seeds": 3
+    },
+    "+0.50": {
+      "objective_reduction_max": 0.0055269629706579115,
+      "objective_reduction_mean": -0.25800641597888097,
+      "objective_reduction_median": -0.334197544780646,
+      "objective_reduction_min": -0.4453486661266548,
+      "positive_reduction_share": 0.3333333333333333,
+      "seeds": 3
+    }
+  },
+  "held_out_summary": {
+    "early_activation_patch": {
+      "positive_restoration_share": 0.6666666666666666,
+      "restoration_max": 0.2739924424610799,
+      "restoration_mean": 0.16761872640919584,
+      "restoration_median": 0.2628673042126617,
+      "restoration_min": -0.03400356744615407,
+      "seeds": 3,
+      "target_change_rmse_mean": 0.20891105139984475,
+      "target_change_rmse_median": 0.19202475630034638
+    },
+    "gradient_aligned_rank4_dose_0.5": {
+      "positive_restoration_share": 0.3333333333333333,
+      "restoration_max": 0.006667068405171728,
+      "restoration_mean": -0.04292243976900475,
+      "restoration_median": -0.02044797646860519,
+      "restoration_min": -0.11498641124358078,
+      "seeds": 3,
+      "target_change_rmse_mean": 0.10300844322672369,
+      "target_change_rmse_median": 0.11481819227188403
+    },
+    "random_rank4_dose_1": {
+      "positive_restoration_share": 0.6666666666666666,
+      "restoration_max": 0.0044126603691078126,
+      "restoration_mean": -0.00021016952678920564,
+      "restoration_median": 0.0017660604407547797,
+      "restoration_min": -0.006809229390230209,
+      "seeds": 3,
+      "target_change_rmse_mean": 0.024923377856188273,
+      "target_change_rmse_median": 0.020450616262472535
+    }
+  },
+  "image_hashes": {
+    "20261009": {
+      "aligned_lora": "78b0a198ed0a62fd77df8724dec2251d4b57257810c926affa5645d16de8d7c4",
+      "early_patch": "084d23081d8cdafa678dad95023b4ee18095a5e841178c3134840a5ed8cef94b",
+      "random_lora": "618566936f4cc4a23b46424e559ffca2d795245129ac94489e6b33da80536452",
+      "source": "e43d1d4b259b3a87245a269bbdde20d834703f4b16e734f287edc32c4d937431",
+      "target": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18"
+    },
+    "20261010": {
+      "aligned_lora": "4fe1c8f865f0f2e4911eb1a75fba31f5f8864555ca9838a435f702884b607304",
+      "early_patch": "4f0ebd7177af3072813f08523673c08028e3267dcd3610c3b47f73a7f186de9e",
+      "random_lora": "edec32db941e386ca1b0eecfd225239fd4fc8d1dc89b6f115ddc1427917f1e37",
+      "source": "5d492c300c672bee0ac5091a5975e521ee046bae22fb370c37692b8ce6430402",
+      "target": "be2a855d25c735a798a26ed62f53474b947781a20bfb65f2aceadf3975943a3f"
+    },
+    "20261011": {
+      "aligned_lora": "d6d422e598810206bc3e4ee22f68330ecb86a609324c635378f821d58a5ea451",
+      "early_patch": "61ded54c85a52767724adf8021010d8bf42ae594ce44b3ec0bd456f2d7e9beca",
+      "random_lora": "d0a7788130b8cc00e125592fd371914503b7525c2d7060b9fac159c6530e7c45",
+      "source": "13a1333d01e18c19c55ea64dbcd15169608a613a8c0a7124cf739ad941974e86",
+      "target": "6beaa7bade2edea757c2ca4dfcb67232c362ecb2d8936b38f360b6e0136e66eb"
+    },
+    "20261012": {
+      "aligned_lora": "aaa37517d72f63043f10cce94a2f9e8bd4442a85ae4992413057f85adde69ba9",
+      "early_patch": "b208cca3aec01f04b2954c85bef170a948a3a9ca3da47b4c98e6f0f2e915b4f7",
+      "random_lora": "ebc4a2ce27c6a2060b23f56e3780dcb0748f8710a28cdb1d2ecf0a7712e74e7e",
+      "source": "7c163496cee9f67a76cc86b5efd6f2487efffda76deff20c87195ec519c283d5",
+      "target": "6f61761b8acd9d72a960727050c284f6579c6f05f2a597bd2cede2531b32fd87"
+    }
+  },
+  "objective_summary": {
+    "+0.10": {
+      "objective_reduction_max": 0.34811933983688526,
+      "objective_reduction_mean": 0.10001190823407374,
+      "objective_reduction_median": 0.02724981720449121,
+      "objective_reduction_min": -0.0025713413095727056,
+      "positive_reduction_share": 0.75,
+      "seeds": 4
+    },
+    "+0.50": {
+      "objective_reduction_max": 0.0055269629706579115,
+      "objective_reduction_mean": -0.8074607724503495,
+      "objective_reduction_median": -0.3897731054536504,
+      "objective_reduction_min": -2.4558238418647553,
+      "positive_reduction_share": 0.25,
+      "seeds": 4
+    }
+  },
+  "primary_module": "up_blocks.1.attentions.2.transformer_blocks.0.attn2.to_v",
+  "random_direction_relative_norm": 0.01,
+  "scope": "Descriptive seed robustness for one prompt pair and fixed directions.",
+  "seeds": [
+    20261009,
+    20261010,
+    20261011,
+    20261012
+  ],
+  "summary": {
+    "early_activation_patch": {
+      "positive_restoration_share": 0.75,
+      "restoration_max": 0.2739924424610799,
+      "restoration_mean": 0.17991969772476632,
+      "restoration_median": 0.23984495794206973,
+      "restoration_min": -0.03400356744615407,
+      "seeds": 4,
+      "target_change_rmse_mean": 0.20558416302158947,
+      "target_change_rmse_median": 0.19381412709358498
+    },
+    "gradient_aligned_rank4_dose_0.5": {
+      "positive_restoration_share": 0.5,
+      "restoration_max": 0.03288570678952518,
+      "restoration_mean": -0.023970403129372264,
+      "restoration_median": -0.006890454031716731,
+      "restoration_min": -0.11498641124358078,
+      "seeds": 4,
+      "target_change_rmse_mean": 0.10599684345382168,
+      "target_change_rmse_median": 0.11489011820349987
+    },
+    "random_rank4_dose_1": {
+      "positive_restoration_share": 0.5,
+      "restoration_max": 0.0044126603691078126,
+      "restoration_mean": -0.0008202113136229483,
+      "restoration_median": -0.00044213811668469827,
+      "restoration_min": -0.006809229390230209,
+      "seeds": 4,
+      "target_change_rmse_mean": 0.024567185098763683,
+      "target_change_rmse_median": 0.021974611544481215
+    }
+  }
+}

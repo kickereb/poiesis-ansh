@@ -1,0 +1,145 @@
+{
+  "baseline_objective": 0.000828659744001925,
+  "direction_provenance": {
+    "declaration": {
+      "dtype": "float32",
+      "eta": 0.0,
+      "gradient_step_index": 10,
+      "guidance_scale": 7.5,
+      "height": 512,
+      "lora_rank": 4,
+      "lora_relative_norm": 0.01,
+      "model_id": "CompVis/stable-diffusion-v1-4",
+      "model_manifest_sha256": "f174b143f79ab1aaa53c1626892b48700e7659592c36a5ad9b18957f18c54bd4",
+      "model_revision": "133a221b8aa7292a167afc5127cb63fb5005638b",
+      "module": "up_blocks.1.attentions.2.transformer_blocks.0.attn2.to_v",
+      "runtime": {
+        "accelerate": "1.15.0",
+        "diffusers": "0.41.0",
+        "dtype": "float32",
+        "huggingface_hub": "1.33.0",
+        "model_card": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+        "model_id": "CompVis/stable-diffusion-v1-4",
+        "model_license": "CreativeML OpenRAIL-M",
+        "model_revision": "133a221b8aa7292a167afc5127cb63fb5005638b",
+        "mps_available": true,
+        "platform": "macOS-26.5.2-arm64-arm-64bit",
+        "python": "3.12.14",
+        "scheduler": "DDIM",
+        "torch": "2.14.1",
+        "transformers": "5.19.0"
+      },
+      "scheduler": "DDIM",
+      "scheduler_config": {
+        "_class_name": "DDIMScheduler",
+        "_diffusers_version": "0.7.0.dev0",
+        "_use_default_values": [
+          "clip_sample_range",
+          "dynamic_thresholding_ratio",
+          "prediction_type",
+          "rescale_betas_zero_snr",
+          "sample_max_value",
+          "thresholding"
+        ],
+        "beta_end": 0.012,
+        "beta_schedule": "scaled_linear",
+        "beta_start": 0.00085,
+        "clip_sample": false,
+        "clip_sample_range": 1.0,
+        "dynamic_thresholding_ratio": 0.995,
+        "num_train_timesteps": 1000,
+        "prediction_type": "epsilon",
+        "rescale_betas_zero_snr": false,
+        "sample_max_value": 1.0,
+        "set_alpha_to_one": false,
+        "skip_prk_steps": true,
+        "steps_offset": 1,
+        "thresholding": false,
+        "timestep_spacing": "leading",
+        "trained_betas": null
+      },
+      "seed": 20261009,
+      "source_prompt": "A red ceramic teapot on the left side, before a striped background, studio photograph.",
+      "steps": 20,
+      "target_prompt": "A blue ceramic teapot on the left side, before a striped background, studio photograph.",
+      "width": 512
+    },
+    "delta_sha256": "d3cbd891f3199474ad9952a00aaddcc9dfc2a4293f6a689a2ac1e9d9b4df803b",
+    "factor_sha256": "a7f52a33e92a5177d967e2fcd963ccb345e65abede9b465f9a572f38d0b1d652",
+    "gradient_archive_sha256": "f19b6f14e0b56ab5588d3a90d89b94a3e76544630a5a2852d94a0b09aa40bcd2",
+    "scheduler_timestep": 451
+  },
+  "gradient_objective": "Half mean squared guided-noise difference between target and source prompts.",
+  "gradient_step_index": 10,
+  "interpretation": {
+    "gradient": "Exact local sensitivity of the declared one-step denoiser objective.",
+    "image": "A full-generation causal test of that local direction under fixed inputs.",
+    "rank4": "A rank-4 gradient descent direction, rescaled to one percent of the base weight norm."
+  },
+  "local_directional_derivative": -0.005672816187143326,
+  "objective_by_strength": {
+    "+0.00": 0.0008286511292681098,
+    "+0.10": 0.0005401816451922059,
+    "+0.25": 0.001013255794532597,
+    "+0.50": 0.0028636723291128874,
+    "+1.00": 0.004418756812810898,
+    "-0.10": 0.0016911159036681056,
+    "-0.50": 0.010047517716884613,
+    "-1.00": 0.018630415201187134
+  },
+  "primary_lora_module": "up_blocks.1.attentions.2.transformer_blocks.0.attn2.to_v",
+  "rank": 4,
+  "relative_norm": 0.01,
+  "scheduler_timestep": 451,
+  "selected_weight_gradients": [
+    {
+      "gradient_frobenius": 0.01650981605052948,
+      "gradient_max_abs": 0.004822416231036186,
+      "gradient_rms": 3.33046009473037e-05,
+      "module": "down_blocks.0.attentions.0.transformer_blocks.0.attn2.to_v",
+      "parameter_count": 245760,
+      "rank": 4,
+      "rank_explained_energy": 0.9940892457962036,
+      "rank_singular_values": [
+        0.01497445534914732,
+        0.006304754875600338,
+        0.0021967627108097076,
+        0.0014747357927262783
+      ]
+    },
+    {
+      "gradient_frobenius": 0.013893957249820232,
+      "gradient_max_abs": 0.0011655365815386176,
+      "gradient_rms": 1.4016964087204542e-05,
+      "module": "up_blocks.1.attentions.2.transformer_blocks.0.attn2.to_v",
+      "parameter_count": 983040,
+      "rank": 4,
+      "rank_explained_energy": 0.9992135763168335,
+      "rank_singular_values": [
+        0.013454619795084,
+        0.003313101129606366,
+        0.0007611440378241241,
+        0.0006390562048181891
+      ]
+    },
+    {
+      "gradient_frobenius": 0.009139114059507847,
+      "gradient_max_abs": 0.0007760496810078621,
+      "gradient_rms": 9.219341336574871e-06,
+      "module": "mid_block.attentions.0.transformer_blocks.0.attn2.to_v",
+      "parameter_count": 983040,
+      "rank": 4,
+      "rank_explained_energy": 0.998260498046875,
+      "rank_singular_values": [
+        0.008574316278100014,
+        0.0028033412527292967,
+        0.001347332145087421,
+        0.00046524079516530037
+      ]
+    }
+  ],
+  "source_sha256": "e43d1d4b259b3a87245a269bbdde20d834703f4b16e734f287edc32c4d937431",
+  "target_sha256": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18",
+  "zero_dose_equal": true,
+  "zero_dose_sha256": "1a8cba07d151faec5e155b7b034ad1d42e28faa6cd754755e30a271b902fdc18"
+}

@@ -10,3 +10,6 @@ venv/
 coverage.xml
 .coverage
 htmlcov/
+real_model/.venv/
+real_model/cache/
+real_model/artifacts/tmp/
