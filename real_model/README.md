@@ -89,6 +89,14 @@ Test fixed interventions on one fitting seed and three held-out seeds:
 PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 real_model/.venv/bin/python real_model/run_seed_robustness.py
 ```
 
+Capture the compact prompt-memory and latent-flow trace used by the mega visualisation:
+
+```bash
+PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 real_model/.venv/bin/python real_model/trace_prompt_flow.py
+```
+
+This writes `real_model/artifacts/prompt_flow_trace.json`. It contains the 77 CLIP token slots, per-token hidden-state norms, the source/target token-state delta, matched 20-step latent projections, and one hooked mid-block activation summary per step. The projection is a display coordinate, not a semantic axis, and the activation summary is not a full tensor dump.
+
 Build the combined result summary:
 
 ```bash
@@ -108,3 +116,4 @@ PYTHONPATH=real_model real_model/.venv/bin/python -m unittest discover -s real_m
 - Activation patches measure the effect of replacing one complete internal state under one prompt contrast.
 - Attention maps show spatial association unless interventions validate them.
 - None of these methods measures legal ownership.
+- The visualisation distinguishes prompt representation (CLIP hidden states), model dynamics (frozen U-Net weights and cross-attention), and seed state (initial latent). A model-vs-prompt decomposition requires a four-cell factorial across model and prompt, with interaction reported separately.
